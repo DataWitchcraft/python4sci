@@ -70,4 +70,4 @@ At the end of Day 1, we will verify your Python installation by downloading this
 python test_python.py
 ```
 
-that should returns `Great installation, thank you!` and no errors.
+that should return `Great installation, thank you!` and no errors.
