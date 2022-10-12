@@ -10,7 +10,7 @@ On the second day, we will work on your local machine, therefore you will need a
 
 Try to install these before the course. We will check the intallation at the end of Day 1 and help you in case of problems.
 
-## Windows
+### Windows
 
 1. Install [a recent version of Python](https://apps.microsoft.com/store/detail/python-39/9P7QFQMJRFP7) from the Windows app store.
 
@@ -31,14 +31,14 @@ venv\Scripts\activate
 4. Install packages into your environment
 
 ```
-python -m pip install numpy pandas jupyter BioPython
+python -m pip install numpy pandas jupyter BioPython seaborn
 ```
 
 If you run into problems with missing admin privileges, you might still be able to install Python and VS Code with `conda` distribution, see https://www.anaconda.com/products/distribution.
 
 For help regarding the virtual environments, see https://realpython.com/python-virtual-environments-a-primer/.
 
-## MacOS / Linux
+### MacOS / Linux
 
 1. Linux and MacOS contain a distribution of Python. Type `python3` into the command line to verify that.
 
@@ -59,5 +59,15 @@ source venv/bin/activate
 4. Install packages into your environment:
 
 ```
-python -m pip install numpy pandas jupyter BioPython
+python -m pip install numpy pandas jupyter BioPython seaborn
 ```
+
+### Verify the installation
+
+At the end of Day 1, we will verify your Python installation by downloading this repo and running [test_python.py](test_python.py)
+
+```
+python test_python.py
+```
+
+that should returns `Great installation, thank you!` and no errors.
