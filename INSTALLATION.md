@@ -16,10 +16,9 @@ Try to install these before the course. We will check the intallation at the end
 
 2. Install [VS Code](https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q) from the Windows app store.
 
-3. Create a new environment `venv` by typing into command line (e.g. power shell):
+3. Get a terminal (`cmd.exe`), change directory (`cd`) into a folder you have write access to and create a new environment `venv` by running:
 
 ```
-cd %homepath%
 python -m venv venv
 ```
 
