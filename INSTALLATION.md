@@ -19,6 +19,7 @@ Try to install these before the course. We will check the intallation at the end
 3. Create a new environment `venv` by typing into command line (e.g. power shell):
 
 ```
+cd %homepath%
 python -m venv venv
 ```
 
