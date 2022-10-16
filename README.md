@@ -27,5 +27,6 @@
 * [Google's Python class](https://developers.google.com/edu/python): self-learn 2-day course by Google
 * [Intro to PyData](https://speakerdeck.com/jakevdp/intro-to-pydata) - could be inspiration for our intro, Python is a [glue](https://speakerdeck.com/jakevdp/the-unexpected-effectiveness-of-python-in-science?slide=34)
 * [Python for Everybody](https://books.trinket.io/pfe/01-intro.html): good intro
+* [Advanced numpy](https://paris-swc.github.io/advanced-numpy-lesson/index.html): SWC paris course 
 
 [the napkin](https://photos.app.goo.gl/GNxXvnjFSSUuYrft9)
