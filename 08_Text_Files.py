@@ -7,6 +7,39 @@
 # to know more about how to open files for reading or writing
 # read https://swcarpentry.github.io/python-second-language/12-file-io/
 
-with open('data/species.csv', 'r') as f:
-    data = f.read()
-print('file contains', len(data), 'bytes')
+import sys
+
+print(sys.argv)  # list with the arguments 
+
+
+# getting INPUT_FILE from the arguments, 'data/species.csv' if not given
+if len(sys.argv) > 1:
+    INPUT_FILE = sys.argv[1]
+else:
+    INPUT_FILE = 'data/species.csv'
+
+# opening the file:
+#    ‘r’ for reading
+#    ‘w’ for writing (immediately erases existing contents)
+#    ‘a’ for appending
+f = open(INPUT_FILE, 'r')
+# read the whole file, write(data) writes data into file
+data = f.read()
+print(f'File \'{INPUT_FILE}\' contains', len(data), 'bytes.')
+# do not forget to close the file (or better use with, see below)
+f.close()
+
+
+# `with` will guarantee that the file will be closed 
+with open(INPUT_FILE, 'r') as f:
+    count = 0
+    for line in f:
+        count = count + 1
+print(f'File \'{INPUT_FILE}\' contains', count, 'lines.')
+
+
+# Your turn - EXERCISE
+# Try to modify the code in such a way that
+# 1. It reads another parameter from the arguments - OUTPUT_FILE
+# 2. It reads INPUT_FILE and then writes the content into OUTPUT_FILE
+# 3. Same as 2. but add the line number in front of each line (i.e. add "1" before the first line, "2" before the second...) 
