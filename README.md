@@ -1,9 +1,9 @@
 # Python for Scientists
 2-day course, BIOCEV, October 2022\
-Link: [bit.ly/python4sci](https://bit.ly/python4sci)
+**Link:** [bit.ly/python4sci](https://bit.ly/python4sci)
 
-Organizer: Vendula Novosadová\
-Instructors: Karla Fejfarová, Petr Šimeček, Felipe Castro Nepomuceno
+**Organizer:** Vendula Novosadová\
+**Instructors:** Karla Fejfarová, Petr Šimeček, Felipe Castro Nepomuceno
 
 **DAY 1 (OCTOBER 19, 2022)**
 
