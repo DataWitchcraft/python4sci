@@ -22,7 +22,7 @@
 * Visualization: pandas and seaborn
 * BioPython: working with FASTA files
 
-This course would not be possible if other people would not enable high-quality teaching materials under free licenses. Namely, we would like to thank for Whirlwind Tour Of Python and Introduction to Python notebooks, Software Carpentry volunteers for Data Analysis and Visualization in Python for Ecologists, Python as a Second Language and Advanced numpy materials, Czech PyLadies for Datový kurz PyLadies and BioPython - for everything. See the full list below.
+This course would not be possible if other people would not enable high-quality teaching materials under free licenses. Namely, we would like to thank Jake VanderPlas for Whirlwind Tour Of Python and Tom McCoy for Introduction to Python notebooks, Software Carpentry volunteers for Data Analysis and Visualization in Python for Ecologists, Python as a Second Language and Advanced numpy materials, Czech PyLadies for Datový kurz PyLadies and BioPython - for everything. See the full list below.
 
 ## Inspiration
 
