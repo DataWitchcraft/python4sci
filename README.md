@@ -1,5 +1,9 @@
 # Python for Scientists
-2-day course, BIOCEV, October 2022
+2-day course, BIOCEV, October 2022\
+Link: [bit.ly/python4sci](https://bit.ly/python4sci)
+
+Organizer: Vendula Novosadová\
+Instructors: Karla Fejfarová, Petr Šimeček, Felipe Castro Nepomuceno
 
 **DAY 1 (OCTOBER 19, 2022)**
 
@@ -18,6 +22,8 @@
 * Visualization: pandas and seaborn
 * BioPython: working with FASTA files
 
+This course would not be possible if other people would not enable high-quality teaching materials under free licenses. Namely, we would like to thank for Whirlwind Tour Of Python and Introduction to Python notebooks, Software Carpentry volunteers for Data Analysis and Visualization in Python for Ecologists, Python as a Second Language and Advanced numpy materials, Czech PyLadies for Datový kurz PyLadies and BioPython - for everything. See the full list below.
+
 ## Inspiration
 
 * [Introduction to Python](https://colab.research.google.com/drive/1ghPQaTEdO9UH4s3gGD5OXmkYNvIwm2Zi?usp=sharing): a colab with the intro to Python, something like this we need for Day 1
@@ -29,5 +35,7 @@
 * [Python for Everybody](https://books.trinket.io/pfe/01-intro.html): good intro
 * [Advanced numpy](https://paris-swc.github.io/advanced-numpy-lesson/index.html): SWC paris course 
 * [Python as a Second Language](https://swcarpentry.github.io/python-second-language/12-file-io/) SWC lecture, nice file processing summary
+* [Datový kurz PyLadies](https://naucse.python.cz/2021/pydata-praha-jaro/) - Czech PyLadies' data course
+* [BioPython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html) - just the first few chapters 
 
-[the napkin](https://photos.app.goo.gl/GNxXvnjFSSUuYrft9)
+[the napkin](https://photos.app.goo.gl/GNxXvnjFSSUuYrft9) - it has all started with the napkin
