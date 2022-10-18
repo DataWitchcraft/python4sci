@@ -59,7 +59,7 @@ source venv/bin/activate
 4. Install packages into your environment:
 
 ```
-python -m pip install numpy pandas jupyter BioPython seaborn
+python -m pip install numpy pandas jupyter BioPython seaborn openpyxl requests
 ```
 
 ### Verify the installation
