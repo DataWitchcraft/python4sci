@@ -25,7 +25,7 @@ else:
 f = open(INPUT_FILE, 'r')
 # read the whole file, write(data) writes data into file
 data = f.read()
-print(f'File \'{INPUT_FILE}\' contains', len(data), 'bytes.')
+print('File', INPUT_FILE, 'contains', len(data), 'bytes.')
 # do not forget to close the file (or better use with, see below)
 f.close()
 
@@ -35,7 +35,7 @@ with open(INPUT_FILE, 'r') as f:
     count = 0
     for line in f:
         count = count + 1
-print(f'File \'{INPUT_FILE}\' contains', count, 'lines.')
+print('File', INPUT_FILE, 'contains', count, 'lines.')
 
 
 # Your turn - EXERCISE
