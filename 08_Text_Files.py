@@ -19,9 +19,9 @@ else:
     INPUT_FILE = 'data/species.csv'
 
 # opening the file:
-#    ‘r’ for reading
-#    ‘w’ for writing (immediately erases existing contents)
-#    ‘a’ for appending
+#    'r' for reading
+#    'w' for writing (immediately erases existing contents)
+#    'a' for appending
 f = open(INPUT_FILE, 'r')
 # read the whole file, write(data) writes data into file
 data = f.read()
