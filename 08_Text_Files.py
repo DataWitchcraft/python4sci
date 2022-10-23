@@ -43,4 +43,4 @@ print('File', INPUT_FILE_NAME, 'contains', count, 'lines.')
 # 1. It reads another parameter from the arguments - OUTPUT_FILE_NAME
 # 2. It reads INPUT_FILE_NAME and then writes the content into OUTPUT_FILE_NAME
 # 3. Same as 2. but add the line number in front of each line (i.e. add "1" before the first line, "2" before the second...) 
-# 4. Same as 3. but skip empty lines (hint: use str.strip method), test on 'data/ls_orchid.fasta' file
+# 4. Same as 3. but skip empty lines (hint: use str.strip method), test on 'data/ls_orchid_small.fasta' file
